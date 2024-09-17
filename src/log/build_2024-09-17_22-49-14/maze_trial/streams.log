@@ -1,0 +1,33 @@
+[0.290s] Invoking command in '/trial/src/maze_trial': PYTHONPATH=/trial/src/build/maze_trial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/trial/src/install/maze_trial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/maze_trial build --build-base /trial/src/build/maze_trial/build install --record /trial/src/build/maze_trial/install.log --single-version-externally-managed install_data
+[0.402s] running egg_info
+[0.402s] creating ../build/maze_trial/maze_trial.egg-info
+[0.403s] writing ../build/maze_trial/maze_trial.egg-info/PKG-INFO
+[0.404s] writing dependency_links to ../build/maze_trial/maze_trial.egg-info/dependency_links.txt
+[0.404s] writing entry points to ../build/maze_trial/maze_trial.egg-info/entry_points.txt
+[0.404s] writing requirements to ../build/maze_trial/maze_trial.egg-info/requires.txt
+[0.404s] writing top-level names to ../build/maze_trial/maze_trial.egg-info/top_level.txt
+[0.405s] writing manifest file '../build/maze_trial/maze_trial.egg-info/SOURCES.txt'
+[0.405s] reading manifest file '../build/maze_trial/maze_trial.egg-info/SOURCES.txt'
+[0.406s] writing manifest file '../build/maze_trial/maze_trial.egg-info/SOURCES.txt'
+[0.406s] running build
+[0.406s] running build_py
+[0.406s] creating /trial/src/build/maze_trial/build
+[0.406s] creating /trial/src/build/maze_trial/build/lib
+[0.406s] creating /trial/src/build/maze_trial/build/lib/maze_trial
+[0.406s] copying maze_trial/__init__.py -> /trial/src/build/maze_trial/build/lib/maze_trial
+[0.406s] running install
+[0.406s] running install_lib
+[0.406s] creating /trial/src/install/maze_trial/lib/python3.10/site-packages/maze_trial
+[0.407s] copying /trial/src/build/maze_trial/build/lib/maze_trial/__init__.py -> /trial/src/install/maze_trial/lib/python3.10/site-packages/maze_trial
+[0.407s] byte-compiling /trial/src/install/maze_trial/lib/python3.10/site-packages/maze_trial/__init__.py to __init__.cpython-310.pyc
+[0.407s] running install_data
+[0.407s] creating /trial/src/install/maze_trial/share/ament_index
+[0.407s] creating /trial/src/install/maze_trial/share/ament_index/resource_index
+[0.407s] creating /trial/src/install/maze_trial/share/ament_index/resource_index/packages
+[0.407s] copying resource/maze_trial -> /trial/src/install/maze_trial/share/ament_index/resource_index/packages
+[0.407s] copying package.xml -> /trial/src/install/maze_trial/share/maze_trial
+[0.407s] running install_egg_info
+[0.408s] Copying ../build/maze_trial/maze_trial.egg-info to /trial/src/install/maze_trial/lib/python3.10/site-packages/maze_trial-0.0.0-py3.10.egg-info
+[0.409s] running install_scripts
+[0.420s] writing list of installed files to '/trial/src/build/maze_trial/install.log'
+[0.436s] Invoked command in '/trial/src/maze_trial' returned '0': PYTHONPATH=/trial/src/build/maze_trial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/trial/src/install/maze_trial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/maze_trial build --build-base /trial/src/build/maze_trial/build install --record /trial/src/build/maze_trial/install.log --single-version-externally-managed install_data
