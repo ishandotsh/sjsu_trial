@@ -83,7 +83,7 @@ class PathPlanner(Node):
                     q.append(neighbor)
                     back_link[neighbor] = cur
 
-        return None
+        return []
 
 
 def main(args=None):

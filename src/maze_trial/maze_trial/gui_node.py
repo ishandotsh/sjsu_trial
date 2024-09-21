@@ -110,7 +110,7 @@ class GuiNode(Node):
                 x2 = x1 + self.cell_size
                 y2 = y1 + self.cell_size
 
-                self.canvas.create_rectangle(x1, y1, x2, y2, fill=color, outline='white')
+                self.canvas.create_rectangle(x1, y1, x2, y2, fill=color)
 
     def draw_path(self):
         self.draw_map()
@@ -120,7 +120,7 @@ class GuiNode(Node):
             x1 = y * self.cell_size
             x2 = x1 + self.cell_size
             y2 = y1 + self.cell_size
-            self.canvas.create_rectangle(x1, y1, x2, y2, fill="green", outline='white')
+            self.canvas.create_rectangle(x1, y1, x2, y2, fill="green")
 
 
 def ros_spin_thread(node):

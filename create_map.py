@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw
 class PaintApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Draw White Lines on Black Background")
+        self.root.title("Draw Map")
         self.canvas_width = 80
         self.canvas_height = 80
 
